@@ -1,28 +1,40 @@
 {
-  "package": "com.application.demo",
-  "name": "quickAppDemo",
+  "package": "com.xunlei.movie",
+  "name": "迅雷影评",
   "versionName": "1.0.0",
   "versionCode": "1",
   "minPlatformVersion": "101",
   "icon": "/Common/logo.png",
   "features": [
-    { "name": "system.prompt" },
-    { "name": "system.router" },
-    { "name": "system.shortcut" },
-    { "name": "system.fetch" },
-    { "name": "system.webview" }
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.shortcut"
+    },
+    {
+      "name": "system.fetch"
+    },
+    {
+      "name": "system.webview"
+    }
   ],
   "permissions": [
-    { "origin": "*" }
+    {
+      "origin": "*"
+    }
   ],
   "config": {
     "logLevel": "debug",
-    "designWidth":"640"
+    "designWidth": 640
   },
   "router": {
-    "entry": "Demo",
+    "entry": "List",
     "pages": {
-      "Demo": {
+      "List": {
         "component": "index"
       },
       "Detail": {
@@ -38,14 +50,16 @@
     "titleBarTextColor": "#414141",
     "menu": true,
     "pages": {
-      "Demo": {
-        "titleBarText": "示例页",
-        "menu": false
+      "List": {
+        "titleBarText": "迅雷影评",
+        "menu": true
       },
-      "DemoDetail": {
-        "titleBarText": "详情页"
+      "Detail": {
+        "titleBarText": "详情页",
+        "menu": true
       },
       "About": {
+        "titleBarText": "关于",
         "menu": false
       }
     }

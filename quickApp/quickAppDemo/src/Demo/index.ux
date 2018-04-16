@@ -1,6 +1,8 @@
 <template>
   <!-- template里只能有一个根节点 -->
   <div class="demo-page">
+    <text> Hello QuickApp </text>
+
     <text class="title">欢迎打开{{title}}</text>
     <!-- 点击跳转详情页 -->
     <input class="btn" type="button" value="跳转到详情页" onclick="routeDetail">
@@ -42,6 +44,7 @@
       router.push ({
         uri: '/DemoDetail'
       })
+
     }
   }
 </script>

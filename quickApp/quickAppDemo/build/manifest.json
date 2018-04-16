@@ -6,18 +6,30 @@
   "minPlatformVersion": "101",
   "icon": "/Common/logo.png",
   "features": [
-    { "name": "system.prompt" },
-    { "name": "system.router" },
-    { "name": "system.shortcut" },
-    { "name": "system.fetch" },
-    { "name": "system.webview" }
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.shortcut"
+    },
+    {
+      "name": "system.fetch"
+    },
+    {
+      "name": "system.webview"
+    }
   ],
   "permissions": [
-    { "origin": "*" }
+    {
+      "origin": "*"
+    }
   ],
   "config": {
     "logLevel": "debug",
-    "designWidth":"640"
+    "designWidth": "640"
   },
   "router": {
     "entry": "Demo",
